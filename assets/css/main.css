@@ -68,10 +68,10 @@
 }
 
 .dark-background {
-  --background-color: #060606;
+  --background-color: #0a1a2e; 
   --default-color: #ffffff;
   --heading-color: #ffffff;
-  --surface-color: #252525;
+  --surface-color: #1c4a6e;
   --contrast-color: #ffffff;
 }
 
@@ -175,7 +175,7 @@ h6 {
 # Global Header
 --------------------------------------------------------------*/
 .header {
-  --background-color: #000000;
+  --background-color: #071220;
   --default-color: #ffffff;
   --heading-color: #ffffff;
   color: var(--default-color);
@@ -212,6 +212,7 @@ h6 {
 @media (min-width: 1200px) {
   .navmenu {
     padding: 0;
+    
   }
 
   .navmenu ul {
@@ -220,6 +221,7 @@ h6 {
     display: flex;
     list-style: none;
     align-items: center;
+    
   }
 
   .navmenu li {
@@ -844,6 +846,7 @@ section,
   line-height: 18px;
   font-size: 18px;
   font-weight: 600;
+  margin-top: 8px;
   text-transform: uppercase;
   color: color-mix(in srgb, var(--default-color), transparent 20%);
   margin-bottom: 10px;
